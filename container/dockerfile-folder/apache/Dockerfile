@@ -1,4 +1,4 @@
-FROM php:8.3-apache
+FROM php:8.5.12-apache
 
 #拡張モジュールをインストール
 RUN docker-php-ext-install mysqli 
